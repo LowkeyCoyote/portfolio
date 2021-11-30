@@ -1,0 +1,481 @@
+/****************************************************
+ ****************************************************
+ *                    COMMUNS À TOUTES LES PAGES
+ ****************************************************
+****************************************************/
+
+
+/****************************************************
+ *                    STYLE GÉNÉRAL
+ ****************************************************/
+
+body {
+    font-family: Rockwell, serif;
+    background-color: #EBEBEB;
+}
+
+.title_general {
+    text-align: center;
+    font-size: 30px;
+    font-family: Rockwell, serif;
+    color: #FF5353;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+}
+
+.title_page {
+    text-align: center;
+    font-size: 30px;
+    font-family: Rockwell, serif;
+    color: #FF5353;
+    text-decoration: none;
+    margin: 150px 10px 10px 10px;
+}
+
+.block_general {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    margin: 40px;
+    padding: 15px 60px;
+}
+
+.block-test {
+    display: block;
+    width: 100%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.block_text {
+    display: inline-block;
+    width: 85%;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #D0CCCC;
+}
+
+/****************************************************
+ *                    HEADER
+ ****************************************************/
+
+.navbar_complete {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    height: 110px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 99999;
+    background-color: #303030;
+    display: flex;
+}
+
+.navbar_brand {
+    height: 80px;
+    margin-top: -20px;
+}
+
+.navbar_collapse ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.navbar_collapse li a {
+    width: 90px;
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Rockwell, serif;
+    color: #CC4C4C;
+    text-align: center;
+}
+
+.navbar_collapse li a:hover {
+    color: #D94648;
+    transition-duration: 0.8s;
+}
+
+/****************************************************
+ *                    FOOTER
+ ****************************************************/
+
+.footer_complete {
+    width: 100%;
+    height: 75px;
+    background-color: #303030;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_social {
+    display: inline-flex;
+    margin-right: 15px;
+}
+
+.footer_social a {
+    margin-right: 20px;
+}
+
+.copyright {
+    color: #B8B8B8;
+    font-family: Rockwell, serif;
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+
+/****************************************************
+ ****************************************************
+ *               SPÉCIFITÉS PAGES
+ ****************************************************
+****************************************************/
+
+
+/****************************************************
+ *                    INDEX
+ ****************************************************/
+
+/***************IMAGE D'ACCUEIL**********************/
+.head_picture {
+    margin-top: 110px;
+    font-family: Rockwell, serif;
+    position: relative;
+}
+
+.opacity_picture {
+    opacity: 0.7;
+}
+
+#insert {
+    top: 18%;
+    padding: 5px;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #bc4a4a;
+}
+
+#insert h1 {
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+}
+
+#insert h2 {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.title_page a {
+    text-align: center;
+    font-size: 30px;
+    font-family: Rockwell, serif;
+    color: #FF5353;
+    text-decoration: none;
+    margin: 150px 10px 10px 10px;
+}
+
+.title_general a {
+    text-decoration: none;
+    color: #bc4a4a;
+}
+
+.title_general a:hover {
+    color: #D94648;
+    transition-duration: 0.3s;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: -5px;
+    font-size: 15px;
+}
+
+/*************** BLOCK ILLUSTRATION*******************/
+.association_logo {
+    display: inline-block;
+    margin: 16px 40px;
+    width: 260px;
+    align-items: center;
+    vertical-align: center;
+}
+
+.festival_logo {
+    width: 70%;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.circle_actu {
+    display: inline-block;
+    margin: 16px auto;
+    height: 200px;
+    width: 200px;
+}
+
+/***************** OVERWIEW ***************************/
+.overview {
+    margin: 20px 10px 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 28px;
+    background-color: #D0CCCC;
+}
+
+.overview_element {
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 1px;
+    flex-shrink: 1;
+}
+
+.overview_element:hover {
+    opacity: 0.65;
+    transition-duration: 0.3s;
+}
+
+/****************************************************
+ *                    SELECTION
+ ****************************************************/
+
+.selection {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 30px 60px 30px;
+    background-color: #D0CCCC;
+    border-radius: 15px;
+}
+
+.film_poster {
+    margin: 20px 10px;
+    padding: 10px;
+    width: 90%;
+    background-color: #B8B8B8;
+    border-radius: 15px;
+}
+
+.film_poster h4 {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.film_poster:hover {
+    opacity: 0.65;
+    transition-duration: 0.3s;
+}
+
+/****************************************************
+ *                    PAGE INFO FILM
+ ****************************************************/
+
+.film_poster_spe {
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.film_poster_spe:hover {
+    opacity: 0.8;
+    transition-duration: 0.3s;
+}
+
+.block_movie {
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px auto;
+    background-color: #B8B8B8;
+    border-radius: 15px;
+}
+
+.synopsis {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.title_reservation {
+    text-align: center;
+    font-size: 26px;
+    margin: 10px 0 25px 0;
+    text-decoration: underline;
+}
+
+.real_act {
+    text-align: left;
+    color: #bc4a4a;
+    opacity: 0.8;
+    margin: 15px 0 25px 0;
+}
+
+.reservation_date {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.button
+{
+    display: block;
+    margin: 0 auto 20px auto;
+    background-color: #bc4a4a;
+    color: white;
+    font-size: 28px;
+    width: 190px;
+    border-radius: 10px;
+    border: 1px solid white;
+    PADDING: 4px;
+    text-align: center;
+}
+
+/****************************************************
+*                    ACTUALITÉS
+****************************************************/
+
+/******************FIL D'ACTUALITÉ******************/
+.block-news {
+    display: block;
+    width: 90%;
+    padding: 5px;
+    margin: 60px 25px;
+    border-radius: 15px;
+    background-color: #D0CCCC;
+}
+
+.title_news {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.block-news .title_general {
+    font-size: 20px;
+}
+
+.subtitle {
+    font-size: 15px;
+}
+
+.text_article {
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.picture_article {
+    width: 45%;
+    float: right;
+    border: 1px solid inherit;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/****************************************************
+ *                    PAGE ACTU SPÉ
+ ****************************************************/
+
+.picture_article_specific {
+
+    width: 45%;
+    float: right;
+    border: 1px solid inherit;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/****************************************************
+ *                    PAGE CONTACT
+ ****************************************************/
+
+.practicle_informations {
+    width: 90%;
+    display: block;
+    justify-content: left;
+    margin: 40px auto;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #B8B8B8;
+}
+
+.practicle_informations h3 {
+    color: #bc4a4a;
+    margin: 10px 0;
+}
+
+/****************************************************
+ *                    CONTACT
+ ****************************************************/
+
+.form_organization {
+
+    padding: 25px 25px 25px 10%;
+    width: 96%;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px auto;
+    background-color: #B8B8B8;
+    border-radius: 15px;
+}
+.info_contact
+{
+    width: 90%;
+}
+
+input {
+    width: 130px;
+    margin: 6px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.message {
+    margin-top: -9px;
+    width: 85%;
+    margin-right: 3%;
+}
+
+textarea {
+
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: grey;
+    margin-top: 25px;
+    max-width: 262px;
+    max-height: 102px;
+}
+.indication {
+    font-size: 10px;
+    color: red;
+    font-style: italic;
+}
+
+
+
+
+

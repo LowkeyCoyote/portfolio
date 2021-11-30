@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d959708-5c65-4d77-bed0-d932b845dfb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/actu_specifique.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bittersweet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actu_specifique.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/actualites.php" beforeDir="false" afterPath="$PROJECT_DIR$/actualites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bittersweet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info_film.php" beforeDir="false" afterPath="$PROJECT_DIR$/info_film.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selection.php" beforeDir="false" afterPath="$PROJECT_DIR$/selection.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="MAMP PHP 7.4" />
+  <component name="ProjectId" id="1h3F2DhPUNdXdJVWl7PQZB4UyJk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inc" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d959708-5c65-4d77-bed0-d932b845dfb3" name="Default Changelist" comment="" />
+      <created>1599231660832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599231660832</updated>
+      <workItem from="1599231662184" duration="78862000" />
+      <workItem from="1600770067864" duration="41984000" />
+      <workItem from="1601986497193" duration="1345000" />
+      <workItem from="1601988509905" duration="22024000" />
+      <workItem from="1602510684029" duration="1200000" />
+      <workItem from="1602511932262" duration="18000" />
+      <workItem from="1602512004134" duration="363000" />
+      <workItem from="1602513282105" duration="17227000" />
+      <workItem from="1603290234137" duration="15981000" />
+      <workItem from="1619859369332" duration="354000" />
+      <workItem from="1620031254780" duration="1237000" />
+      <workItem from="1620033263118" duration="1089000" />
+      <workItem from="1620034506686" duration="662000" />
+      <workItem from="1638266224905" duration="807000" />
+      <workItem from="1638267474540" duration="326000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
