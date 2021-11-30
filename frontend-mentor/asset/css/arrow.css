@@ -1,0 +1,44 @@
+.absolute{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 20px;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 999px;
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+.absolute-left{
+
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 20px;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 999px;
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+
+
+.my-icon-right{
+    width: 50px;
+    height: 50px;
+    vertical-align: center;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+.my-icon-left{
+    width: 50px;
+    height: 50px;
+    vertical-align: center;
+    margin-left:2px;
+    margin-top: 4px;
+}
+
+

@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 1em;
+}
+
+.bg-mobile {
+    display: none;
+}
+
+.bg-desk {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+main {
+    display: grid;
+    height: 100vh;
+    place-content: center;
+}
+
+.card {
+    height: 42em;
+    width: 27.5em;
+    background-color: white;
+    border-radius: 1.25em;
+    box-shadow: 0 1.875em 1.6em -0.5em hsla(224, 23%, 55%, 0.3);
+}
+
+.card-hero {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.25em 1.25em 0 0;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 2.5em;
+    margin: 1.875em 0;
+}
+
+.card-title {
+    font-size: 1.625em;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 0.8em;
+}
+
+.card-text {
+    line-height: 1.625em;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 0.625em;
+}
+
+.card-plan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1.6em 1.825em;
+    margin: 0.625em 0 1.875em 0;
+    border-radius: 0.625em;
+}
+
+.card-plan__logo {
+    margin-right: 0.9em;
+}
+
+.card-plan__annual {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.card-plan__price {
+    margin-top: 0.3em;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.card-link {
+    flex-grow: 2;
+    text-align: right;
+    margin-right: 0.375em;
+    font-weight: 700;
+}
+
+.card-link a:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.65);
+    transition: ease-in-out 0.1s;
+}
+
+.btn {
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 0.9em;
+    border-radius: 0.75em;
+    width: 100%;
+}
+
+.btn-payment {
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 1.9em 1.25em -0.5em hsla(224, 23%, 55%, 0.2);
+    margin-bottom: 0.625em;
+}
+
+.btn-payment:hover {
+    background-color: hsla(245, 75%, 52%, 0.65);
+    transition: ease-in-out 0.1s;
+}
+
+.btn-cancel {
+    color: hsl(224, 23%, 55%);
+    margin: 0.625em 0;
+    font-weight: 900;
+}
+
+.btn-cancel:hover {
+    color: hsl(223, 47%, 23%);
+    transition: ease-in-out 0.1s;
+}
+
+@media screen and (max-width: 440px) {
+    .bg-mobile {
+        display: inline;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+
+    .bg-desk {
+        display: none;
+    }
+
+    .card {
+        max-width: 22em;
+    }
+
+    .card-content {
+        padding: 0 1.6em;
+    }
+
+    .card-link {
+        margin-right: 0;
+        font-size: 0.875em;
+    }
+
+    .card-hero {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-plan{
+        padding: 1.625em 1.3em;
+
+    }
+}
