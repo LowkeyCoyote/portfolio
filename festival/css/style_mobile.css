@@ -340,6 +340,8 @@ body {
     font-size: 15px;
     margin-top: 10px;
     text-align: center;
+    font-family: "Kameron", Memphis, sans-serif;
+    color: hsl(223, 47%, 23%);
 }
 
 .film_poster:hover {
