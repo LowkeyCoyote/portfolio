@@ -10,14 +10,14 @@
  ****************************************************/
 
 body {
-    font-family: Rockwell, serif;
+    font-family: "Memphis", sans-serif;
     background-color: #EBEBEB;
 }
 
 .title_general {
     text-align: center;
     font-size: 30px;
-    font-family: Rockwell, serif;
+    font-family: "Memphis", sans-serif;
     color: #FF5353;
     text-decoration: none;
     margin: 10px 10px 10px 10px;
@@ -26,7 +26,7 @@ body {
 .title_page {
     text-align: center;
     font-size: 30px;
-    font-family: Rockwell, serif;
+    font-family:"Memphis" , serif;
     color: #FF5353;
     text-decoration: none;
     margin: 150px 10px 10px 10px;
@@ -94,7 +94,7 @@ body {
     font-size: 17px;
     display: inline-block;
     text-decoration: none;
-    font-family: Rockwell, serif;
+    font-family:"Memphis" , sans-serif;
     color: #CC4C4C;
     text-align: center;
 }
@@ -130,7 +130,7 @@ body {
 
 .copyright {
     color: #B8B8B8;
-    font-family: Rockwell, serif;
+    font-family: "Memphis" , serif;
     font-size: 14px;
     margin-left: 25px;
 }
@@ -150,7 +150,7 @@ body {
 /***************IMAGE D'ACCUEIL**********************/
 .head_picture {
     margin-top: 110px;
-    font-family: Rockwell, serif;
+    font-family:"Memphis" , sans-serif;
     position: relative;
 }
 
@@ -184,7 +184,7 @@ body {
 .title_page a {
     text-align: center;
     font-size: 30px;
-    font-family: Rockwell, serif;
+    font-family:"Memphis" , serif;
     color: #FF5353;
     text-decoration: none;
     margin: 150px 10px 10px 10px;
