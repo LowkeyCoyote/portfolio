@@ -34,7 +34,7 @@ body {
 
 .block-news a:hover{
     border-bottom: 2px solid hsl(245, 75%, 52%) ;
-    font-weight: 700;
+
     margin-left: 2px;
 
     transition: 0.5s;
