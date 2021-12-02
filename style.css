@@ -1,5 +1,4 @@
 
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,10 +11,6 @@ body {
     font-size: 16px;
 }
 
-a{
-    text-decoration: none;
-}
-
 main{
     display: grid;
     min-height: 100vh;
@@ -26,16 +21,14 @@ main{
     height: 45em;
     width: 29em;
     background-color: hsl(216, 50%, 16%);
-    border-radius: 12px;
-    padding:1.2rem 2rem;
-    box-shadow: 0 25px 8px 15px hsl(218, 52%, 4%, 0.2);
+    border-radius: 0.75em;
+    padding:1.2em 2em;
+    box-shadow: 0 1.5em 0.5em 1em hsl(218, 52%, 4%, 0.2);
 }
 
 .card-name {
-    font-weight: 400;
     color: white;
-
-    font-size: 2rem;
+    font-size: 2em;
     margin: 0.5em 0;
     text-align: center;
 
@@ -49,7 +42,7 @@ main{
     background-color: hsl(0, 0%, 100%,0.6);
     opacity: 0;
     transition: opacity 0.2s;
-    border-radius: 8px;
+    border-radius: 0.5em;
 }
 
 .card-overlay:hover {
@@ -62,31 +55,28 @@ main{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 200px;
-    width: 200px;
-    margin: 0.5rem auto;
-    border-radius: 8px;
+    height: 12.5em;
+    width: 12.5em;
+    margin: 0.5em auto;
+    border-radius: 0.5em;
 }
 
 .small-title {
-    font-weight: 400;
-    color: white;
-    opacity: 0.8;
+    color: hsl(0, 0%, 100%, 0.8);
     font-size: 1.4em;
-    margin: 15px 0;
+    margin: 0.8em 0;
 }
 
 .container{
     margin-top: 1em;
     display: grid;
-    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-rows: 3.1em 3.1em 3.1em 3.1em;
 }
 
 .project{
     display: grid;
-    grid-template-columns: 150px 226px;
+    grid-template-columns: 9.4em 14.1em;
 }
-
 
 .project-link:hover{
     text-decoration: underline;
@@ -97,21 +87,22 @@ main{
     text-decoration: none;
     color: hsla(178, 100%, 50%);
     border-bottom: 1px solid transparent;
+    font-size: 1.1em;
 }
 
 .link a:hover{
     transition: 0.3s;
-    border-bottom:2px solid hsla(178, 100%, 50%);
+    border-bottom: 2px solid hsla(178, 100%, 50%);
 }
 
 .icon-social{
-    height: 30px;
-    width: 30px;
+    height: 2em;
+    width: 2em;
     margin-right: 1em;
 }
 
 .projet-text{
-    color: hsla(215, 51%, 70%, 0.6);
+    color: hsla(215, 51%, 70%, 0.75);
 }
 
 .card-subtitle{
@@ -122,8 +113,8 @@ main{
 }
 
 .icon a{
-    width: 30px;
-    height: 30px;
+    width: 1.8em;
+    height: 1.8em;
 }
 
 .accent{
