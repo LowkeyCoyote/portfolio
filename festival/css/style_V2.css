@@ -29,8 +29,13 @@
 }
 
 .navbar_collapse li a {
-    width: 100px;
-    font-size: 18px;
+    width: 130px;
+    font-size: 20px;
+}
+
+.navbar_collapse li a:hover {
+    width: 130px;
+    font-size: 23px;
 }
 
 /****************************************************
@@ -66,15 +71,24 @@
     font-size: 30px;
 }
 
+.block-test {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 25px 0;
+    text-align: center;
+}
+
 /*************** BLOCK ILLUSTRATION*******************/
 .association_logo {
-    margin: 72px 148px;
+    margin: -30px 148px;
 }
 
 .festival_logo {
-    margin: -30px 100px;
+    margin: -20px 120px;
     width: auto;
-
+    box-shadow: 0 1.875em 1.6em -0.5em hsla(224, 23%, 55%, 0.3);
+    height: 233px;
 }
 
 .circle_actu {
@@ -132,7 +146,7 @@
 
 .block-news {
     width: 800px;
-    margin: 25px auto;
+    margin: 40px auto;
     padding: 15px;
 }
 
@@ -171,7 +185,15 @@
 }
 
 input {
-    width: 286px;
+    width: 300px;
+    margin: 10px 0;
+}
+
+input {
+
+    margin: 6px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
 }
 
 textarea {
@@ -185,4 +207,9 @@ textarea {
     font-size: 10px;
     color: red;
     font-style: italic;
+}
+
+.navbar_brand {
+    margin-top: 5px;
+    height: initial;
 }

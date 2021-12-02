@@ -99,7 +99,9 @@
 }
 
 .picture_article {
-    width: 200px;
+    max-width: 100px;
+    height: 100px;
+    margin-top: -10px;
 }
 
 /****************************************************
