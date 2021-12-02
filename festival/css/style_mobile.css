@@ -40,6 +40,22 @@ body {
     transition: 0.5s;
 }
 
+.block-test a{
+    color:hsl(245, 75%, 52%);
+    text-decoration: none;
+    font-weight: 400;
+    border-bottom: 1px solid transparent;
+    font-size: 18px;
+    margin-top: 1px;
+}
+
+.block-test a:hover{
+    border-bottom: 2px solid hsl(245, 75%, 52%) ;
+    font-weight: 700;
+
+    transition:all ease-in-out 0.5s;
+}
+
 .title_page {
     text-align: center;
     font-size: 30px;
@@ -192,7 +208,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 15px;
     color: rgba(19, 19, 172, 0.8);
 }
@@ -263,26 +279,19 @@ body {
     margin: 16px auto;
     height: 200px;
     width: 200px;
-    background-color: white;
+    background-color: hsl(245, 75%, 52%);
+
     border-radius: 999px;
     box-shadow: 0 1.875em 1.6em -0.5em hsla(224, 23%, 55%, 0.3);
 }
 
-.circle_actu:hover{
-    background-color: hsl(245, 75%, 52%);
-    transition: 0.3s ease-in-out;
-}
 
-.circle_actu:hover .text{
-    color: white;
-    transition: 0.3s ease-in-out;
-}
 
 .text{
     width: 170px;
     margin: 51px auto;
     font-size: 25px;
-    color: hsl(223, 47%, 23%);
+    color: white;
     font-weight: 700;
     line-height: 32px;
 

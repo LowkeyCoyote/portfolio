@@ -171,7 +171,7 @@
  ****************************************************/
 
 .practicle_informations {
-    width: 80%;
+    width: 1100px;
 }
 
 /****************************************************
@@ -210,6 +210,18 @@ textarea {
 }
 
 .navbar_brand {
-    margin-top: 5px;
+    margin-top: -1px;
     height: initial;
+}
+
+.icon-img{
+    height: 70px;
+    width: auto;
+    margin: 2px auto;
+}
+
+@media screen and (min-width: 1700px) {
+    input{
+        width: 380px;
+    }
 }
