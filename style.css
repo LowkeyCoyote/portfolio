@@ -126,6 +126,22 @@ main{
     height: 30px;
 }
 
+.accent{
+    text-decoration: none;
+    color: hsla(178, 100%, 50%, 0.6);
+    border-bottom: 1px solid transparent;
+}
+
+.accent:hover{
+    transition: 0.3s;
+    border-bottom:1px solid hsla(178, 100%, 50%, 0.6);
+}
+.project-link:hover{
+    text-decoration: underline;
+    transition: all ease-in-out 1s;
+}
+
+
 
 
 
