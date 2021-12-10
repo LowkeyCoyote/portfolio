@@ -49,6 +49,30 @@
     .absolute-left{
         left: 5px;
     }
+
+
+    .absolute{
+        width: 40px;
+        height: 40px;
+    }
+
+    .absolute-left{
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    .my-icon-right{
+        max-width: 33px;
+        max-height: 33px;
+    }
+
+    .my-icon-left{
+        max-width: 33px;
+        max-height: 33px;
+
+    }
 }
 
 
