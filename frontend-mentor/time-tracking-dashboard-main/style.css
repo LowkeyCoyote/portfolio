@@ -1,0 +1,273 @@
+:root {
+    --blue: hsl(246, 80%, 60%);
+
+    --light-red-work: hsl(15, 100%, 70%);
+    --soft-blue: hsl(195, 74%, 62%);
+    --light-red-study: hsl(348, 100%, 68%);
+    --lime-green: hsl(145, 58%, 55%);
+    --violet: hsl(264, 64%, 52%);
+    --soft-orange: hsl(43, 84%, 65%);
+
+    --very-dark-blue: hsl(226, 43%, 10%);
+    --dark-blue: hsl(235, 46%, 20%);
+    --desatured-blue: hsl(235, 45%, 61%);
+    --pale-blue: hsl(236, 100%, 87%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    background-color: var(--very-dark-blue);
+    color: white;
+    font-weight: 300;
+}
+
+main {
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+}
+
+.dashboard {
+    display: grid;
+    width: 1089px;
+    height: 494px;
+    grid-template-columns: 14em 14em 14em 14em;
+    grid-template-rows: 13em 13em;
+    grid-gap: 1.5em;
+    grid-template-areas:
+    "a b d f"
+    "a c e g";
+}
+
+.profil {
+    background-color: var(--dark-blue);
+    grid-area: a;
+    border-radius: 1em;
+}
+
+.profil-card {
+    width: 100%;
+    height: 67%;
+    background-color: var(--blue);
+    border-radius: 1em;
+    padding: 1.5em;
+}
+
+.profil-card img {
+    max-width: 4em;
+    border: 2px solid white;
+    border-radius: 999px;
+    margin-bottom: 2em;
+}
+
+.subtitle {
+    font-size: 14px;
+}
+
+.profil-card h1 {
+    font-weight: 300;
+}
+
+.date-row {
+    margin-top: 1.5em;
+}
+
+.date {
+    margin-top: 1.1em;
+    margin-left: 1.5em;
+    color: var(--desatured-blue);
+    cursor: pointer;
+}
+
+.date:hover{
+    color: white;
+    transition: 0.2s;
+}
+
+.date:active{
+    color: white;
+}
+
+.card {
+    background-color: var(--dark-blue);
+    height: 80%;
+    margin-top: 2.65em;
+    border-radius: 1em;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card:hover {
+    background-color: hsl(236, 45%, 32%);;
+    transition: 0.3s;
+}
+
+.top-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activity {
+    font-weight: 400;
+}
+
+.current {
+    font-size: 3em;
+    font-weight: 200;
+}
+
+.previous {
+    font-size: 0.8em;
+    color: var(--pale-blue);
+    margin-top: 0.5em;
+}
+
+.work, .play, .study, .exercise, .social, .self-care {
+    border-radius: 1em 1em 2em 2em;
+    background: no-repeat;
+    background-position-y: -0.8em;
+    background-position-x: 93%;
+}
+
+.exercise, .social, .self-care
+{
+    background-position-y: 0;
+}
+
+.work {
+    background-color: var(--light-red-work);
+    background-image: url("images/icon-work.svg");
+}
+
+.play {
+    background-color: var(--soft-blue);
+    background-image: url("images/icon-play.svg");
+}
+
+.study {
+    background-color: var(--light-red-study);
+    background-image: url("images/icon-study.svg");
+}
+
+.exercise{
+    background-color: var(--lime-green);
+    background-image: url("images/icon-exercise.svg");
+}
+
+.social{
+    background-color: var(--violet);
+    background-image: url("images/icon-social.svg");
+}
+
+.self-care{
+    background-color: var(--soft-orange);
+    background-image: url("images/icon-self-care.svg");
+}
+
+.active{
+    color: white;
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 1024px) {
+    .dashboard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: 4em auto;
+        grid-gap: 2em;
+    }
+
+    .profil-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        width: 18em;
+    }
+
+    .profil {
+        width: 100%;
+        height: 11em;
+    }
+
+    .profil-card {
+        height: 67%;
+    }
+
+    .profil-card h1 {
+        font-size: 1.3em;
+    }
+
+    .profil-card img {
+        margin-bottom: 0;
+        max-width: 4em;
+    }
+
+    .bottom-line {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profil-col {
+        margin-left: 1em;
+    }
+
+    .date-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .date {
+        margin-top: 1.5em;
+        margin-left: 0;
+    }
+
+    .card {
+        margin-top: 2em;
+        padding: 1.3em;
+    }
+
+    .work, .study, .play, .social, .exercise, .self-care {
+        width: 100%;
+    }
+
+    .current {
+        font-size: 2em;
+    }
+}
+
+
+
+
+
+
+
+
