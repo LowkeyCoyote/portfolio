@@ -40,7 +40,7 @@ main {
     height: 494px;
     grid-template-columns: 14em 14em 14em 14em;
     grid-template-rows: 13em 13em;
-    grid-gap: 1.5em;
+    grid-gap: 1.2em;
     grid-template-areas:
     "a b d f"
     "a c e g";
