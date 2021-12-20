@@ -133,6 +133,11 @@ body {
     text-transform: uppercase;
   }
 
+  .navbar__link > a:hover {
+    border-bottom: transparent;
+    text-decoration: underline;
+  }
+
   .bar {
     display: block;
     width: 30px;
